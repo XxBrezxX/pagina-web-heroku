@@ -66,7 +66,9 @@
                 </div>
                 <div class="rounded text-center p-2" [ngStyle]="{'background-color':'#FFFFFF', 'border':'transparent'}">
                     <button type="button" class="p-1 m-1 rounded text-light"
-                        [ngStyle]="{'background-color':'#aa6649', 'border':'transparent', 'width':'9vw'}">Descargar CV</button>
+                        [ngStyle]="{'background-color':'#aa6649', 'border':'transparent', 'width':'9vw'}"
+                        (click)="downloadCV()"
+                        >Descargar CV</button>
                     <button type="button" class="p-1 m-1 rounded text-light"
                         [ngStyle]="{'background-color':'#aa6649', 'border':'transparent', 'width':'9vw'}">Contáctame</button>
                 </div>

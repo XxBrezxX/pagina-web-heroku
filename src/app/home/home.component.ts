@@ -17,4 +17,10 @@ export class HomeComponent implements OnInit {
     window.open(url, "_blank");
   }
 
+  downloadCV(): void{
+    let link = document.createElement("a");
+    link.download = "filename";
+    link.href = "./../../assets/CV.pdf";
+    link.click();
+  }
 }
