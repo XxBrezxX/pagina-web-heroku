@@ -1,0 +1,73 @@
+.bg-img
+{
+    width: 80%;
+    height: 85%;
+}
+
+.imagen1{
+    background-image: url('../../../assets/io2.jpeg');
+    background-size: 25vw;
+    background-repeat: no-repeat;
+    height: 14vw;
+    width: 29%;
+    left: 50%;
+    transform: translate(0, 0%);
+    -webkit-clip-path: polygon(0 0, 17vw 0, 20vw 20vw, 0 100%);
+    top: 36%;
+}
+
+.imagen2{
+    background-image: url('../../../assets/io3.jpeg');
+    background-size: 25vw;
+    background-repeat: no-repeat;
+    height: 12vw;
+    width: 40%;
+    left: 20%;
+    transform: translate(0, 0%);
+    -webkit-clip-path: polygon(3vw 0, 100% 0, 100% 100%, 0 100%);
+    top: 36%;
+}
+
+.imagen3{
+    background-image: url('../../../assets/io4.jpeg');
+    background-size: 25vw;
+    background-repeat: no-repeat;
+    height: 16vw;
+    width: 35%;
+    left: 50%;
+    transform: translate(0, 0%);
+    -webkit-clip-path: polygon(0 0, 22vw 0, 25vw 25vw, 0 100%);
+    top: 36%;
+}
+
+.masBtn{
+    position: relative;
+    top: -5vw;
+    left: -5vw; 
+    width: 3vw;
+}
+
+.icons{
+    width: 1.5vw;
+}
+
+.paddingright{
+    padding-right: 0.5vw;
+}
+
+.info{
+    width: 45vw;
+}
+
+.skills{
+    height: 28vw;
+}
+
+.colorBar{
+    background-color: #75AB5B;
+    border: transparent;
+}
+
+.buttons{
+    height: 10vw;
+}
