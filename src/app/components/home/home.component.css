@@ -5,7 +5,7 @@
 }
 
 .imagen{
-    background-image: url('../../assets/io.jpeg');
+    background-image: url('../../../assets/io.jpeg');
     background-size: 25vw;
     background-repeat: no-repeat;
     height: 25vw;
