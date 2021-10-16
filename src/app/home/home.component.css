@@ -40,3 +40,10 @@
 .info{
     width: 45vw;
 }
+
+.etiqueta{
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+}
