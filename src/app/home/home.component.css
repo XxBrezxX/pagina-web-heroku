@@ -9,10 +9,34 @@
     background-size: 25vw;
     background-repeat: no-repeat;
     height: 25vw;
-    width: 90%;
+    width: 32%;
     left: 50%;
     transform: translate(0, 0%);
-    -webkit-clip-path: polygon(0 0, 80% 0, 80% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 20vw 0, 25vw 25vw, 0 100%);
     top: 36%;
-    
+}
+
+.masBtn{
+    position: relative;
+    top: -5vw;
+    left: -5vw;
+    width: 3vw;
+}
+
+.icons{
+    width: 1.5vw;
+}
+
+.paddingright{
+    padding-right: 0.5vw;
+}
+
+.socialIcons{
+    width: 2.2vw;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+}
+
+.info{
+    width: 45vw;
 }

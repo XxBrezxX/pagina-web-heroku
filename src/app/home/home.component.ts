@@ -13,4 +13,8 @@ export class HomeComponent implements OnInit {
     document.body.classList.add('bg-img');
   }
 
+  relink(url: string): void {
+    window.open(url, "_blank");
+  }
+
 }
