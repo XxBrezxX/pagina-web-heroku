@@ -12,4 +12,11 @@ export class AboutMeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  downloadEN(): void{
+    let link = document.createElement("a");
+    link.download = "filename.rar";
+    link.href = "./../../../assets/Public.rar";
+    link.click();
+  }
+
 }
